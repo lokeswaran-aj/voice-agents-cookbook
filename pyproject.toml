@@ -1,0 +1,9 @@
+[project]
+name = "voice-agents-cookbook"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "livekit-agents[cerebras,deepgram,silero,turn_detector]>=1.6.4",
+    "livekit-plugins-ai-coustics>=0.3.0",
+    "python-dotenv>=1.2.2",
+]
